@@ -1,0 +1,15 @@
+.pre_arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 1;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    z-index: 999;
+    position: absolute;
+    top: 96%;
+    left: 42%;
+    background-color: #fff;
+}

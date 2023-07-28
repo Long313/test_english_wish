@@ -1,0 +1,17 @@
+.text_why {
+    color: rgb(244, 201, 208, 0.3);
+    position: relative;
+    font-size: 14rem;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.text_why .text_why_child {
+    color: #5353ac;
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 900;
+    top: 55%;
+    left: 40%;
+}

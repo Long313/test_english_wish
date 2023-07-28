@@ -1,0 +1,87 @@
+.header {
+  width: 100%;
+  height: 100px;
+  padding: 25px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 9999;
+}
+.header .container_logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header .container_logo img {
+  display: inline-block;
+  height: 44%;
+}
+.navigate {
+  display: flex;
+}
+.navigate .link {
+  line-height: 24px;
+  margin: 0 24px;
+  display: flex;
+  align-items: center;
+}
+.navigate a {
+  color: #141414;
+  display: inline-block;
+  margin-right: 5px;
+}
+.active {
+  color: #6458a2;
+}
+.pending {
+  color: #141414;
+}
+
+.container_btn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.container_btn .btn {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0 4px;
+}
+
+.container_btn .btn_login,
+.container_btn .btn_join,
+.container_icon {
+  height: 100%;
+  display:flex;
+  align-items: center;
+}
+
+.container_btn .btn_login a {
+  height: 28px;
+  color: #5353ac;
+  border: 1px solid #5353ac;
+  border-radius: 100px;
+  padding: 6px;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.container_btn .btn_join a {
+  height: 28px;
+  color: #fff;
+  background-color: #5353ac;
+  border-radius: 100px;
+  padding: 6px;
+  min-width: 60px;
+}
+.container_icon {
+  height: 100%;
+  margin-left: 20px;
+}
